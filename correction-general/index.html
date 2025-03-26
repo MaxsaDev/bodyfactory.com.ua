@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корекція фігури Основна</title>
+    <meta name="description" content="Body Factory масаж: Корекція фігури Основна. Студія професійного масажу Body Factory, м.Львів, площа Князя Святослава, 5, Записуйтесь: +38 (096) 918-90-89">
+    <meta name="keywords" content="студія bodyfactory, body factory львів, bodyfactory львів, масаж, професійний масаж, масаж корекція фігури, лікувальний масаж, естетичний масаж, масаж тіла, масаж обличчя, оздоровчий масаж">
+    <meta name="facebook-domain-verification" content="6z8r8zqlor6rfkdtnlx4blh2l9t2ul" />
+    <meta property="og:title" content="Студія професійного масажу Body Factory"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bodyfactory.com.ua/" />
+    <meta property="og:image" content="https://bodyfactory.com.ua/images/og/banner.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <link rel="canonical" href="https://bodyfactory.com.ua/correction-general">
+    <link rel="icon" type="image/png" sizes="45x45" href="../images/icon/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+          integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/hero.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/vacancy.css">
+    <link rel="stylesheet" href="../css/service_page.css">
+
+    <style>
+        /* Стиль для секции EFFECTS */
+        .services_effects_section {
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        /* Стиль для секции BODY ZONES */
+        .body_zones_section {
+            background-color: #ffffff;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .services_zones_wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .body_zones_block {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: 50px;
+            margin-top: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+        }
+
+        .body_zones_list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            list-style: none;
+            padding: 0;
+            max-width: 500px;
+        }
+
+        .body_zones_item {
+            background-color: #f8bf00;
+            color: #000;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            animation: fadeInUp 0.5s ease forwards;
+            opacity: 0;
+            font-size: 16px;
+        }
+
+        .body_zones_item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .body_zones_item::before {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #000;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .services_zones_block_icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            min-height: 350px;
+        }
+
+        .services_zones_icon {
+            max-width: 100%;
+            height: auto;
+            max-height: 350px;
+            display: block;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+            object-fit: contain;
+        }
+
+        @media screen and (max-width: 768px) {
+            .body_zones_block {
+                grid-template-columns: 150px 1fr;
+                gap: 30px;
+            }
+
+            .services_zones_icon {
+                max-height: 300px;
+            }
+
+            .body_zones_item {
+                font-size: 15px;
+                padding: 8px 16px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .services_zones_block_icon {
+                display: flex;
+                min-height: auto;
+                margin-bottom: 20px;
+            }
+
+            .services_zones_icon {
+                max-height: 250px;
+            }
+
+            .body_zones_block {
+                grid-template-columns: 1fr;
+                padding: 0 10px;
+            }
+
+            .body_zones_list {
+                max-width: 90%;
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            .body_zones_item {
+                font-size: 14px;
+                padding: 8px 14px;
+                margin-bottom: 3px;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            .body_zones_item {
+                font-size: 13px;
+                padding: 6px 12px;
+            }
+        }
+
+        .body_zones_item:nth-child(1) { animation-delay: 0.1s; }
+        .body_zones_item:nth-child(2) { animation-delay: 0.2s; }
+        .body_zones_item:nth-child(3) { animation-delay: 0.3s; }
+        .body_zones_item:nth-child(4) { animation-delay: 0.4s; }
+        .body_zones_item:nth-child(5) { animation-delay: 0.5s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-70KLJ4H4Z6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-70KLJ4H4Z6');
+      gtag('config', 'AW-10994207434');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <!-- Event snippet for Перегляд сторінки conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            // window.location = url;
+            window.open(url, '_blank');
+          }
+        };
+        gtag('event', 'conversion', {
+          'send_to': 'AW-10994207434/pVSlCIWpoeEDEMqVufoo',
+          'event_callback': callback
+        });
+        return false;
+      }
+    </script>
+    <!-- Event snippet for Перегляд сторінки conversion page
+   In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '5772610192751172');
+      fbq('track', 'PageView');
+      fbq('track', 'PageCorrectionGeneral');
+    </script>
+    <noscript>
+        <img
+                height="1"
+                width="1"
+                style="display:none"
+                src="https://www.facebook.com/tr?id=5772610192751172&ev=PageView&noscript=1"
+        />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Hide name .html -->
+    <script>
+        window.history.replaceState({}, null, '/correction-general');
+    </script>
+</head>
+
+<body>
+
+<!--HEADER-->
+
+<header class="head">
+    <div class="head_full">
+        <div class="logo">
+            <a href="./index.html"> <img class="logo_img" src="../images/BF_logo_120_120.png" alt="" width="60" height="60"></a>
+            <h2 class="footer_name">BODY FACTORY</h2>
+        </div>
+
+
+        <div class="header_menu_burger">
+            <div class="navbar">
+                <a  href="./index.html">ГОЛОВНА</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn active "> НАШІ ПОСЛУГИ
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./corection">Корекція фігури</a>
+                        <a href="./face">Естетика тіла та обличчя</a>
+                        <a href="./health">Лікування та оздоровлення</a>
+                        <a href="./relax">Релакс</a>
+                    </div>
+                </div>
+
+                <a href="./contacts">КОНТАКТИ</a>
+                <a href="./price">ПРАЙС</a>
+                <a class="order_header"
+                    onclick="gtag_report_conversion('https://cbox.mobi/go/body-factory')"
+                    href="https://cbox.mobi/go/body-factory" target="_blank" rel="nofollow">
+                    ЗАПИСАТИСЯ
+                </a>
+
+            </div>
+            <ul class="socials_header">
+                <li class="socials__item"><a class="socials__link" href="https://www.instagram.com/bodyfactory.ua/" target="_blank"> <svg class="socials__icon">
+                    <use href="../images/icons.svg#instagram"></use>
+                </svg>
+                </a></li>
+
+                <li class="socials__item"> <a class="socials__link " href="https://www.facebook.com/bodyfactory.ua/" target="_blank"> <svg class="socials__icon">
+                    <use class="socials__icon" href="../images/icons.svg#facebook"></use>
+                </svg></a></li>
+                <li class="socials__item social_additional"> <a class="socials__link" href="https://youtube.com/channel/UCR7nMLFf0vegyA0z3Jz3FsQ" target="_blank">
+                    <svg class="socials__icon">
+                        <use href="../images/icons.svg#icon-youtube"></use>
+                    </svg></a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- меню бургер -->
+    <div class="burger_menu">
+        <input id="toggle" type="checkbox">
+
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="/">Головна</a><br>
+                    <a href="../corection">Корекція фігури</a><br>
+                    <a href="../face">Естетика тіла та обличчя</a><br>
+                    <a href="../health">Лікування та оздоровлення</a><br>
+                    <a href="../relax">Релакс</a><br>
+                    <a href="../contacts">Контакти</a><br>
+                    <a href="../price/">Прайс</a><br>
+                    <a class="order-nav_header"
+                        onclick="gtag_report_conversion('https://cbox.mobi/go/body-factory')"
+                        href="https://cbox.mobi/go/body-factory" target="_blank" rel="nofollow">
+                        Записатися
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<!-- 2 HERO -->
+<section class="vacancy_hero margin_auto">
+
+    <div class='service_title'>
+        <div class='about_us_container'>
+            <a href="../correction-express/">
+                <svg class="about_us_arrow arrow_left" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                      data-name="3-Arrow Right" />
+                </svg>
+            </a>
+        </div>
+
+        <h1 class="services_h1_title margin_auto service-name"></h1>
+
+        <div class='about_us_container'>
+            <a href="../correction-personal/">
+                <svg class="about_us_arrow" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                      data-name="3-Arrow Right" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <p class="services_after_h2 margin_auto service_description"></p>
+
+    <div class="services_hero_img_block margin_auto">
+        <video
+            id="services_hero_video"
+            class="services_hero_video"
+            src=""
+            poster=""
+            autoplay
+            loop
+            preload="auto"
+            muted
+            playsinline >
+        </video>
+    </div>
+</section>
+
+<!-- EFFECTS -->
+<section class="services_about margin_auto services_effects_section">
+
+    <div class="services_effects_block ">
+        <ul class="service_effects-list">
+        </ul>
+
+        <div class="service_effects_line"></div>
+
+        <table>
+            <tr>
+                <td class="service_effects_table_row">
+                    <svg class="service_effects_icons">
+                        <use href="../images/symbol-defs.svg#icon-time-so-svgrepo-com"></use>
+                    </svg>
+                </td>
+                <td class="service_effects_table_row">Час:</td>
+                <td id="time" class="service_effects_table_row"></td>
+            </tr>
+
+            <!-- <tr>
+                <td class="service_effects_table_row">
+                    <svg class="service_effects_icons">
+                        <use href="../images/symbol-defs.svg#icon-body-svgrepo-com"></use>
+                    </svg>
+                </td>
+                <td class="service_effects_table_row">Зони:</td>
+                <td id="zones" class="service_effects_table_row"></td>
+            </tr> -->
+
+            <tr>
+            <td class="service_effects_table_row">
+                <svg class="service_effects_icons">
+                    <use href="../images/symbol-defs.svg#icon-intensity-high"></use>
+                </svg>
+            </td>
+            <td class="service_effects_table_row">Інтенсивність:</td>
+            <td id="intensity" class="service_effects_table_row"></td>
+            </tr>
+
+            <tr>
+            <td class="service_effects_table_row">
+                <svg class="service_effects_icons">
+                    <use href="../images/symbol-defs.svg#icon-calendar-svgrepo-com"></use>
+                </svg>
+            </td>
+            <td class="service_effects_table_row">Регулярність:</td>
+            <td id="regularity" class="service_effects_table_row"></td>
+            </tr>
+
+            <tr>
+            <td class="service_effects_table_row">
+                <svg class="service_effects_icons">
+                    <use href="../images/symbol-defs.svg#icon-ok-hand-svgrepo-com-1"></use>
+                </svg>
+            </td>
+            <td class="service_effects_table_row">До результату:</td>
+            <td id="result" class="service_effects_table_row"></td>
+            </tr>
+
+            <tr>
+            <td class="service_effects_table_row">
+                <svg class="service_effects_icons">
+                    <use href="../images/symbol-defs.svg#icon-cream-lotion-svgrepo-com"></use>
+                </svg>
+            </td>
+            <td class="service_effects_table_row">Засіб:</td>
+            <td id="tools" class="service_effects_table_row"></td>
+            </tr>
+
+         </table>
+
+    </div>
+
+</section>
+
+<!-- ZONES -->
+<!-- <section class="services_about margin_auto services_effects_section">
+    <div class="services_zones_wrapper">
+        <h2 class="services_h2_title margin_auto services__title">Зони</h2>
+
+        <div class="services_zones_block">
+            <div class="services_zones_block_icon">
+                <svg id="zones_icon" class="services_zones_icon">
+                    <use href=""></use>
+                </svg>
+            </div>
+            <p class="services_zones_description"></p>
+        </div>
+    </div>
+
+</section> -->
+
+<!-- BODY ZONES -->
+<section class="body_zones_section">
+    <div class="services_zones_wrapper">
+        <h2 class="services_h2_title margin_auto services__title">Зони масажу</h2>
+
+        <div class="services_zones_block body_zones_block">
+            <div class="services_zones_block_icon">
+                <img class="services_zones_icon" src="../images/body-zone/body-zone.png" alt="Зони масажу">
+            </div>
+            <ul class="body_zones_list">
+                <!-- Зони будуть додані через JavaScript -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PRICES -->
+<section class="section_price">
+    <div class="services_price services_detail margin_auto">
+        <table class="services_price_table">
+            <tbody class="services_price_table_body">
+            </tbody>
+        </table>
+
+        <a class="service_price_button"
+            onclick="gtag_report_conversion('https://cbox.mobi/go/body-factory')"
+            href="https://cbox.mobi/go/body-factory"
+            target="_blank" rel="nofollow">
+            <p>Записатися</p>
+        </a>
+    </div>
+
+</section>
+
+ <!--Додатки-->
+ <section class="services_detail margin_auto services_additives">
+
+    <h2 class="services_h2_title margin_auto services__title">Рекомендовані додатки</h2>
+
+    <ul class="services_additives_list">
+    </ul>
+
+</section>
+
+<!-- 7 DETAILS -->
+<section class="services_detail margin_auto services_detail_section">
+    <h2 class="services_h2_title margin_auto services__title">Сервісні переваги</h2>
+
+    <ul class="services_detail_block advantages_list">
+    </ul>
+
+</section>
+
+<!--Сontraindication-->
+<section class="services_detail margin_auto services_contraindication">
+    <div class="services_contraindication_block">
+        <div>
+            <h2 class="services_h2_title margin_auto services__title contraindication__title">Протипоказання</h2>
+            <ul class="services_contraindication_list">
+            </ul>
+        </div>
+
+        <div class="services_contraindication_icon_block">
+            <svg class="services_contraindication_icon">
+                <use href="../images/symbol-warning.svg#icon-warning-circle-svgrepo-com"></use>
+            </svg>
+        </div>
+    </div>
+</section>
+
+ <!--Комунікації-->
+ <section class="services_detail margin_auto services_contacts_section">
+
+    <h2 class="services_h2_title margin_auto services__title">Комунікації</h2>
+    <div class="services_contacts">
+        <ul class="services_contacts_social_list">
+            <li>
+                <a class="services_social_link" href="tel:+380969189089" target="_blank">
+
+                    <svg class="services_social_icon">
+                        <use  href="../images/icons.svg#icon-phone-call"></use>
+                    </svg>
+                    <span class="services_social_text">Phone</span>
+                </a>
+            </li>
+
+            <li class="socials__item">
+                <a class="services_social_link" href="viber://chat?number=%2B380969189089" target="_blank">
+
+                    <svg class="services_social_icon">
+                        <use  href="../images/icons.svg#icon-viber-app"></use>
+                    </svg>
+                    <span class="services_social_text">Viber</span>
+                </a>
+            </li>
+
+            <li class="socials__item">
+                <a class="services_social_link" href="https://t.me/+380969189089" target="_blank">
+
+                    <svg class="services_social_icon">
+                        <use  href="../images/icons.svg#icon-telegram-app"></use>
+                    </svg>
+                    <span class="services_social_text">Telegram</span>
+                </a>
+            </li>
+
+            <li class="socials__item">
+                <a class="services_social_link" href="https://www.instagram.com/bodyfactory.ua/" target="_blank">
+                    <svg class="services_social_icon">
+                        <use href="../images/icons.svg#instagram"></use>
+                    </svg>
+                    <span class="services_social_text">Instagram</span>
+                </a>
+            </li>
+
+            <li class="socials__item">
+                <a class="services_social_link" href="https://www.facebook.com/bodyfactory.ua/" target="_blank">
+                    <svg class="services_social_icon">
+                        <use href="../images/icons.svg#facebook"></use>
+                    </svg>
+                    <span  class="services_social_text">Facebook</span>
+                </a>
+            </li>
+
+            <li class="socials__item">
+                <a class="services_social_link" href="mailto:bodyfactory.com.ua@gmail.com?subject=From website" target="_blank">
+                    <svg class="services_social_icon">
+                        <use href="../images/icons.svg#envelope"></use>
+                    </svg>
+                    <span class="services_social_text">Email</span>
+                </a>
+
+
+            </li>
+
+        </ul>
+
+        <div class="contacts_map services_contacts_map">
+            <iframe class="contacts_map_frame services_contacts_map_frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.923307423541!2d24.00658441626172!3d49.84389853876265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5f5d8e08c3%3A0x37889bea47df7bf6!2z0KHRgtGD0LTRltGPINC80LDRgdCw0LbRgyBCb2R5IEZhY3Rvcnk!5e0!3m2!1suk!2sua!4v1660069123655!5m2!1suk!2sua"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- BUTTON ON TOP -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<footer>
+    <div class="footer margin_auto">
+        <div class="footer_item--bf margin_auto">
+            <div class="footer_logo_name">
+
+                <img class="footer_logo_png" src="../images/BF_logo_120_120.png" alt="">
+
+
+                <h2 class="footer_name_add">BODY FACTORY</h2>
+
+            </div>
+        </div>
+        <div class="footer_item footer_item--second margin_auto">
+            <h3 class="contacts_title font-title"> НAШІ ПОСЛУГИ</h3>
+        </div>
+        <div class="footer_item footer_item--third margin_auto">
+            <h3 class="contacts_title font-title"> НАША АДРЕСА</h3>
+        </div>
+        <div class="footer_item footer_item--four margin_auto">
+            <p class="footer_text">Студія з персональним інноваційним підходом до клієнтів. Ми створюємо комфорт,
+                позбавляємо проблем, надихаємо та
+                відновлюємо вас на тижні вперед.</p>
+        </div>
+        <div class="footer_item footer_item--five margin_auto">
+            <a class="contacts_references_link" href="../corection"> Корекція фігури</a> </br>
+
+            <a class="contacts_references_link" href="../face">Естетика тіла та обличчя</a> </br>
+
+            <a class="contacts_references_link" href="../health">Лікування та оздоровлення</a></br>
+            <a class="contacts_references_link" href="../relax">Релакс</a></br>
+            <a class="contacts_references_link" href="./notes">Пам'ятка клієнту</a></br>
+            <a class="contacts_references_link"href="./vacancy">Вакансії</a>
+
+        </div>
+        <div class="footer_item footer_item--six  margin_auto">
+            <a class="contacts_adress_item" href="https://goo.gl/maps/FwnA2U8h5pGoPJsg6" target="_blank"
+               rel="noreferrer noopener">м. Львів,
+                площа Князя Святослава, 5 </a> </br>
+            <a class="contacts_adress_item" href="tel:+380969189089">+38 096 918 90 89</a>
+            <div class="contacts_socials">
+                <h3 class="contacts_title_soc">МИ В СОЦМЕРЕЖАХ:</h3>
+                <ul class="socials">
+                    <li class="socials__item">
+                        <a class="socials__link"
+                           href="https://www.instagram.com/bodyfactory.ua/"
+                           target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link"
+                           href="https://www.facebook.com/bodyfactory.ua/"
+                           target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link"
+                           href="https://t.me/bodyfactory_ua"
+                           target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-telegram-app"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link" href="https://www.youtube.com/channel/UC3DssE3EBierDYbzTdhuE4w" target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link" href="https://www.tiktok.com/@bodyfactory.ua" target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-tiktok"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link" href="https://www.linkedin.com/company/bodyfactory-ua/" target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer_copyright">
+        <p> Developed & Supported by <a href="https://maxsa.com.ua/" target="_blank" style="text-decoration: none;">Maxsa, <span class="year"></span></a></p>
+        <p>Body Factory &#169 <span class="year"></span></p>
+    </div>
+
+</footer>
+
+<script src="../js/scroll_button.js"></script>
+<script src="../js/menu_price.js"></script>
+<script src="../js/date_year.js"></script>
+<script type="module" src="../correction-general/service_page.js"></script>
+</body>
+
+</html>

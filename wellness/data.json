@@ -1,0 +1,66 @@
+{
+  "hero_title": "Загальний оздоровчий масаж",
+  "hero_video": "../video/wellness.mp4",
+  "hero_baner": "",
+  "service_description": "Це найбільш збалансована послуга в техніці виконання, масаж включає техніки лімфодренажу, розминання, розтягування мʼязів та роботи з кровоносною системою. Спеціаліст ретельно працює з кожним мʼязом відновлюючи його стан та збільшуючи працездатність. Лімфодренажні рухи спрямовані на покращення обміну речовин, покращення роботи імунної системи, та самопочуття тіла в цілому.",
+  "service_effect": {
+    "effect1": "Покращення працездатності",
+    "effect2": "Відновлення самопочуття ",
+    "effect3": "Розслаблення мʼязів",
+    "effect4": "Покращення кровообігу",
+    "effect5": "Покращення метаболізму"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "середня",
+    "regularity": "3 рази в місяць",
+    "result": "3-7 сенсів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": [
+      "шийно-комірцева зона",
+      "спина",
+      "живіт",
+      "сідниці",
+      "передня поверхня стегна",
+      "задня поверхня ніг",
+      "руки до ліктя"
+    ]
+  },
+  "service_price": {
+    "title": "Загальний оздоровчий масаж",
+    "price": "1050 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Загальний оздоровчий масаж + Збільшення часу сеансу",
+      "price": "1440 грн.",
+      "price_old": "1600 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" }
+      ]
+    },
+    {
+      "title": "Загальний оздоровчий масаж + Масажний крем для зволоження шкіри + Композиція свічок в кабінет",
+      "price": "1130 грн.",
+      "price_old": "1255 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" },
+        { "icon": "../images/symbol-massage.svg#icon-candles" }
+      ]
+    }
+  ],
+  "additives": [4, 6, 13],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 5, 10, 12]
+}

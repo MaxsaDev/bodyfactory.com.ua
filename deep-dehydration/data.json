@@ -1,0 +1,65 @@
+{
+  "hero_title": "Комплекс «Глибока дегідратація»",
+  "hero_video": "../video/deep-dehydration.mp4",
+  "hero_baner": "",
+  "service_description": "Це поєднання лімфодренажу тіла та лімфодренажного обгортання. Комплекс націлений для максимально ретельної та поглибленої роботи з лімфатичною системою. Це комплексне поєднання дії технічних рухів спеціаліста, в поєднанні з роботою професійної косметики іспанського бренду FR-Haut. Результатом такого комплексу будуть зміни, як і лімфатичної системи так і стану шкіри.",
+  "service_effect": {
+    "effect1": "Зняття набряків",
+    "effect2": "Зменшення обʼємів",
+    "effect3": "Зволоження шкіри",
+    "effect4": "Пілінгування шкіри",
+    "effect5": "Відновлення лімфотоку"
+  },
+  "service_details": {
+    "time": "150 хв.",
+    "intensity": "середня",
+    "regularity": "1 раз в 10 днів",
+    "result": "3-5 сеансів",
+    "tools": "базове масло, FR-Haut"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": [
+      "шийно-комірцева зона",
+      "спина",
+      "живіт",
+      "сідниці",
+      "передня поверхня стегна",
+      "задня поверхня ніг"
+    ]
+  },
+  "service_price": {
+    "title": "Комплекс «Глибока дегідратація»",
+    "price": "2200 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Комплекс «Глибока дегідратація» + Композиція свічок в кабінет",
+      "price": "2090 грн.",
+      "price_old": "2325 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-candles" }
+      ]
+    },
+    {
+      "title": "Комплекс «Глибока дегідратація» + Масаж стоп (додаток) + Композиція свічок в кабінет",
+      "price": "2360 грн.",
+      "price_old": "2625 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" },
+        { "icon": "../images/symbol-massage.svg#icon-candles" }
+      ]
+    }
+  ],
+  "additives": [2, 3, 4],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 10, 12, 5]
+}

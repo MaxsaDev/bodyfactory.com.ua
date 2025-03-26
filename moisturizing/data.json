@@ -1,0 +1,65 @@
+{
+  "hero_title": "Зволожуючий масаж кремом",
+  "hero_video": "../video/moisturizing.mp4",
+  "hero_baner": "",
+  "service_description": "Ретельне опрацювання м'язів, в поєднанні з масажним зволожуючим кремом покращує результативність та сприйняття послуги. Завдяки структурі крему кожний масажний рух відчувається на тілі ефективніше. Спеціаліст збалансовує усі масажні техніки для найкращого відновлення тіла. Масаж виконується середньої глибини, що дозволяє відпочити та розслабитись під час послуги.",
+  "service_effect": {
+    "effect1": "Розслаблення мʼязів",
+    "effect2": "Зволоження шкіри",
+    "effect3": "Зняття втоми",
+    "effect4": "Покращення кровообігу",
+    "effect5": "Покращення лімфотоку"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "середня",
+    "regularity": "1 раз в 10 днів",
+    "result": "3-5 сеансів",
+    "tools": "зволожуючий крем"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": [
+      "шийно-комірцева зона",
+      "спина",
+      "живіт",
+      "сідниці",
+      "передня поверхня стегна",
+      "задня поверхня ніг"
+    ]
+  },
+  "service_price": {
+    "title": "Зволожуючий масаж кремом",
+    "price": "1100 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Зволожуючий масаж кремом + Масаж стоп (додаток)",
+      "price": "1260 грн.",
+      "price_old": "1400 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Зволожуючий масаж кремом + Збільшення часу сеансу + Композиція свічок в кабінет",
+      "price": "1600 грн.",
+      "price_old": "1775 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" },
+        { "icon": "../images/symbol-massage.svg#icon-candles" }
+      ]
+    }
+  ],
+  "additives": [1, 2, 4],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 5, 10, 12]
+}

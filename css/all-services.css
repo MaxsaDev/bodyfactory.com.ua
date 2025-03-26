@@ -1,0 +1,27 @@
+.all-services_list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 0 20px 60px;
+}   
+
+.all-services_list li{
+    line-height: 2;
+    list-style-type: decimal;
+}
+
+.all-services_list a{
+    color: var(--dark-first);
+}
+
+.all-services_list a:hover{
+    color: var(--dark-third);
+    text-decoration: underline;
+}
+
+.copy-button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0 0 0 10px;
+}

@@ -1,0 +1,64 @@
+{
+  "hero_title": "Пілінг тіла «Гідратація»",
+  "hero_video": "../video/body-peeling.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга побудована на лінійці косметики SEA ORIGIN, іспанського бренду FR-Haut. Це пілінг побудований на основі дуже подрібненої морської солі та морських водоростей змішаних з кремовою маскою. Суміш наноситься на тіло легким масажем, після тіло загортається в одноразове простирадло, для активної дії компонентів. Завершується послуга зняттям суміші за допомогою теплого вологого рушника.",
+  "service_effect": {
+    "effect1": "Пілінг шкіри",
+    "effect2": "Живлення шкіри",
+    "effect3": "Очищення шкіри",
+    "effect4": "Еластичність шкіри",
+    "effect5": "Зволоження"
+  },
+  "service_details": {
+    "time": "50 хв.",
+    "intensity": "легка",
+    "regularity": "1 раз в 10 днів",
+    "result": "1 сеанс",
+    "tools": "FR-Haut"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": [
+      "шийно-комірцева зона",
+      "спина",
+      "живіт",
+      "передня поверхня стегна",
+      "задня поверхня ніг"
+    ]
+  },
+  "service_price": {
+    "title": "Пілінг тіла «Гідратація»",
+    "price": "1200 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Пілінг тіла «Гідратація» + Масаж долонь (додаток)",
+      "price": "1350 грн.",
+      "price_old": "1500 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-hands" }
+      ]
+    },
+    {
+      "title": "Пілінг тіла «Гідратація» + Розслабляючий масаж + Композиція свічок в кабінет",
+      "price": "2050 грн.",
+      "price_old": "2275 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-candles" }
+      ]
+    }
+  ],
+  "additives": [2, 3, 4],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 10, 12, 5]
+}

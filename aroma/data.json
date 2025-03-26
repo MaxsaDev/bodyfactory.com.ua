@@ -1,0 +1,58 @@
+{
+  "hero_title": "Розслабляючий комплекс",
+  "hero_video": "../video/aroma .mp4",
+  "hero_baner": "",
+  "service_description": "Послуга, яку ви можете персоналізувати під себе, вибравши одне з 20 ефірних масел по дії та запаху. Ефірна олія додається в розігріте кокосове масло та арома лампу, утворючи аромокомпозицію. Спеціаліст наносить масло на тіло легкими плавними масажними рухами в ритм заспокійливої музики. Комплекс складається з масажу спини, долонь та стоп. Запах масел дозволяє максимально швидко заспокоїти тіло та розум.",
+  "service_effect": {
+    "effect1": "Емоційне відновлення",
+    "effect2": "Зняття втоми",
+    "effect3": "Покращення самопочуття",
+    "effect4": "Розслаблення мʼязів",
+    "effect5": "Покращення кровообігу"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "легка",
+    "regularity": "1 раз в 7 днів",
+    "result": "1 сеанс",
+    "tools": "кокосове масло, ефірна олія"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["шийно-комірцева зона", "спина", "стопи", "долоні"]
+  },
+  "service_price": {
+    "title": "Розслабляючий комплекс",
+    "price": "1300 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Розслабляючий комплекс + Масаж стоп (додаток)",
+      "price": "1440 грн.",
+      "price_old": "1600 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Розслабляючий комплекс + Збільшення часу сеансу + Ефірна олія: лаванда",
+      "price": "1755 грн.",
+      "price_old": "1950 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [2, 1, 4],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 10, 12, 5]
+}

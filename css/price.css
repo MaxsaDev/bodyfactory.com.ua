@@ -1,0 +1,57 @@
+.price_title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.price_menu{
+    margin-top: 200px;
+    margin-left: var(--margin-left);
+    border-radius: 5px;
+
+}
+/*стилі для меню */
+.accordeon {
+    background-color: var(--light-first);
+    /* color: var(--dark-second); */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.accordeon:hover {
+    background-color: var(--dark-first);
+    color: var(--light-second);
+} */
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    padding: 0 18px;
+    background-color: var(--middle-first);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.accordeon:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    /* color: var(--dark-second); */
+    float: right;
+    margin-left: 5px;
+}
+
+    /* Unicode character for "minus" sign (-) */
+
+/* .active:after {
+    content: "\2796";
+    color: var(--dark-second);
+} */

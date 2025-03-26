@@ -1,0 +1,44 @@
+.contest-rules {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.contest-rules h1, .contest-rules h2, .contest-rules h3, .contest-rules h4 {
+    color: var(--dark-first);
+    margin-bottom: 15px;
+}
+
+.contest-rules p {
+    font-size: var(--text-basic);
+    line-height: var(--line-height-text);
+    margin-bottom: 10px;
+}
+
+.contest-rules ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.contest-rules li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.combo-offers h2, .combo-offers h3 {
+    color: var(--dark-first);
+    margin-bottom: 15px;
+}
+
+.combo-offers ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.combo-offers li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.combo-offers strong {
+    color: var(--dark-third);
+}

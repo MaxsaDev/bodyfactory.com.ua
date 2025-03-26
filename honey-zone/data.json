@@ -1,0 +1,58 @@
+{
+  "hero_title": "Медове тонізування на одну зону",
+  "hero_video": "../video/honey-zone.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга складається з трьох етапів: розігрівання шкіри руками, нанесення меду в рукавичках та динамічна робота з шкірою та мʼязами. Після мед знімається контрастними компресами холодних та гарячих рушників. Зону клієнт обирає індивідуально з спеціалістом. Послуга закриває одразу дві потреби: такі як тонізування шкіри та її пілінгування.",
+  "service_effect": {
+    "effect1": "Тонізування шкіри",
+    "effect2": "Тонізування мʼязів",
+    "effect3": "Пілінгування шкіри",
+    "effect4": "Покращення кровообігу",
+    "effect5": "Покращення лімфотоку"
+  },
+  "service_details": {
+    "time": "30 хв.",
+    "intensity": "висока",
+    "regularity": "1 раз в 10 днів",
+    "result": "3-5 сеансів",
+    "tools": "натуральний мед"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ОДНА ЗОНА"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["клієнт обирає зону"]
+  },
+  "service_price": {
+    "title": "Медове тонізування на одну зону",
+    "price": "850 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Медове тонізування + Масаж стоп (додаток)",
+      "price": "1035 грн.",
+      "price_old": "1150 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Медове тонізування + + Масаж стоп (додаток) + Масаж долонь (додаток)",
+      "price": "1305 грн.",
+      "price_old": "1450 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" },
+        { "icon": "../images/symbol-massage.svg#icon-hands" }
+      ]
+    }
+  ],
+  "additives": [1, 2, 3],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 6, 17, 10, 12]
+}

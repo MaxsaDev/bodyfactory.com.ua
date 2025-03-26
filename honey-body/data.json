@@ -1,0 +1,58 @@
+{
+  "hero_title": "Медове тонізування шкіри",
+  "hero_video": "../video/honey-body.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга складається з трьох етапів: розігрівання шкіри руками, нанесення меду в рукавичках та динамічна робота з шкірою та мʼязами. Після мед знімається контрастними компресами холодних та гарячих рушників. В результаті верхній шар ороговілої шкіри пілінгується, шкіра набуває тонусу та збагачуються мікро та макроелементами меду, покращується тонус мʼязів.",
+  "service_effect": {
+    "effect1": "Тонізування шкіри",
+    "effect2": "Тонізування мʼязів",
+    "effect3": "Пілінгування шкіри",
+    "effect4": "Покращення кровообігу",
+    "effect5": "Покращення лімфотоку"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "висока",
+    "regularity": "1 раз в 10 днів",
+    "result": "3-5 сеансів",
+    "tools": "натуральний мед"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["спина", "живіт", "передня поверхня стегна", "задня поверхня ніг", "руки до ліктя"]
+  },
+  "service_price": {
+    "title": "Медове тонізування шкіри",
+    "price": "1070 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Медове тонізування шкіри + Масаж стоп (додаток)",
+      "price": "1230 грн.",
+      "price_old": "1370 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Медове тонізування шкіри + Масаж стоп (додаток) + Масаж долонь (додаток)",
+      "price": "1500 грн.",
+      "price_old": "1670 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" },
+        { "icon": "../images/symbol-massage.svg#icon-hands" }
+      ]
+    }
+  ],
+  "additives": [1, 2, 3],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 6, 17, 10, 12]
+}

@@ -1,0 +1,58 @@
+{
+  "hero_title": "Антицелюлітний масаж",
+  "hero_video": "../video/anticellulite.mp4",
+  "hero_baner": "",
+  "service_description": "Інтенсивний масаж  на зменшення обʼємів проблемних ділянок. Масаж включає в себе, спортивні та лімфодренажні техніки. Рухи масажиста спрямовані на роботу з жировою тканиною, мʼязами та тонусом шкіри. Спеціаліст ретельно працює з кожною проблемною ділянкою. Такий масаж вводить організм в стан корисного стресу завдяки чому відбуваються зміни.",
+  "service_effect": {
+    "effect1": "Тонізування мʼязів",
+    "effect2": "Тонізування шкіри",
+    "effect3": "Зменшення обʼємів",
+    "effect4": "Зменшення набряків",
+    "effect5": "Покращення обміну речовин"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "висока",
+    "regularity": "1 раз в 10 днів",
+    "result": "6-10 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "СПИНА"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["живіт", "бока", "сідниці", "передня поверхня стегна", "задня поверхня ніг"]
+  },
+  "service_price": {
+    "title": "Антицелюлітний масаж",
+    "price": "1050 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Антицелюлітний масаж + Збільшення часу сеансу",
+      "price": "1440 грн.",
+      "price_old": "1600 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" }
+      ]
+    },
+    {
+      "title": "Антицелюлітний масаж + Масаж шийно-комірцевої зони + Ефірна олія: мандарин",
+      "price": "1650 грн.",
+      "price_old": "1830 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [1, 6, 20],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

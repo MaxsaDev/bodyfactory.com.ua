@@ -1,0 +1,58 @@
+{
+  "hero_title": "Корекція фігури Основна",
+  "hero_video": "../video/correction-general.mov",
+  "hero_baner": "",
+  "service_description": "Програма складається з 10 сеансів в яких 7 видів масажу. Антицелюлітний, медовий, вакуумний, бамбуковий, лімфодренаж, спортивний, моделюючий. Послідовність послуг побудована таким чином, що наступний масаж покращує дію попереднього та готує тіло до наступного.  Результат досягається за рахунок інтенсивної роботи з тілом, корисного стресу для організму під дією якого тіло набуває візуальних змін.",
+  "service_effect": {
+    "effect1": "Тонізування мʼязів",
+    "effect2": "Тонізування шкіри",
+    "effect3": "Зменшення обʼємів",
+    "effect4": "Зменшення набряків",
+    "effect5": "Моделювання фігури"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "висока",
+    "regularity": "один курс 2 рази на рік",
+    "result": "10 сеансів",
+    "tools": "базове масло, мед"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "СПИНА"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["живіт", "бока", "сідниці", "передня поверхня стегна", "задня поверхня ніг"]
+  },
+  "service_price": {
+    "title": "Корекція фігури Основна",
+    "price": "1100 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Корекція фігури Основна + Корекція рук",
+      "price": "1620 грн.",
+      "price_old": "1800 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" }
+      ]
+    },
+    {
+      "title": "Корекція фігури Основна + Масаж відновлення спини + Масажний крем для зволоження шкіри",
+      "price": "1830 грн.",
+      "price_old": "2030 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" }
+      ]
+    }
+  ],
+  "additives": [1, 6, 10],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

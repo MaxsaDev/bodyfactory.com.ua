@@ -1,0 +1,52 @@
+# Залежності
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Тестування
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Продакшн
+/build
+
+# Локальні файли
+.DS_Store
+*.pem
+
+# Логи дебага
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Локальні енв файли
+.env*.local
+.env
+.env.development
+.env.production
+
+# Верифікація
+.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# PWA файли
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# Кеш
+.cache/

@@ -1,0 +1,58 @@
+{
+  "hero_title": "Блейд масаж однієї зони",
+  "hero_video": "../video/blade-zone.mp4",
+  "hero_baner": ""
+,
+  "service_description": "Це послуга яка виконується комбінованими рухами та масажними блейдами. Це металеві скребки з округлими формами різних видів та форм, що дозволяє працювати з мʼязами більш глибше та ретельніше. Обравши зону, у спеціаліста є достатньо часу для ретельної роботи з усіма мʼязами, фасціями, місцями кріплень мʼязів. Робота з мʼязами відбувається глибоко та в помірному ритмі.",
+  "service_effect": {
+    "effect1": "Розслаблення мʼязів",
+    "effect2": "Зняття тригерів",
+    "effect3": "Зняття втоми",
+    "effect4": "Покращення працездатності",
+    "effect5": "Покращення лімфотоку"
+  },
+  "service_details": {
+    "time": "45 хв.",
+    "intensity": "висока",
+    "regularity": "3 рази в місяць",
+    "result": "3-5 сенсів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ОДНА ЗОНА"
+  },
+  "service_price": {
+    "title": "Блейд масаж однієї зони",
+    "price": "870 грн.",
+    "price_old": "",
+    "icons": [
+      {"icon": "../images/symbol-massage.svg#icon-massage"}
+      ]  
+  },
+  "service_price_additional": [
+      {
+          "title": "Блейд масаж + Масаж стоп (додаток)",
+          "price": "1008 грн.",
+          "price_old": "1120 грн.",
+          "icons": [
+              {"icon": "../images/symbol-massage.svg#icon-massage"},
+              {"icon": "../images/symbol-massage.svg#icon-foot"}
+          ]
+      },
+      {
+          "title": "Блейд масаж + Масаж стоп (додаток) + Масаж долонь (додаток)",
+          "price": "1233 грн.",
+          "price_old": "1370 грн.",
+          "icons": [
+              {"icon": "../images/symbol-massage.svg#icon-massage"},
+              {"icon": "../images/symbol-massage.svg#icon-foot"},
+              {"icon": "../images/symbol-massage.svg#icon-hands"}
+          ]
+      }
+  ],
+  "additives": [3, 6, 11],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17]
+,
+  "contraindication": [1, 2, 5, 10, 12]
+}

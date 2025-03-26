@@ -1,0 +1,65 @@
+{
+  "hero_title": "Масаж в чотири руки",
+  "hero_video": "../video/four-hands.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга націлена на максимальні відчуття від масажу, два спеціаліста одночасно та синхронно працюють з вашими мʼязами, завдяки чому створюються велика площа тертя, що чудово нагріває тіло, всі рухи виконуються в ритм музики. Вже за декілька хвилин після початку ваш розум абстрагується від зовнішнього світу зʼявиться відчуття спокою та емоційного відновлення.",
+  "service_effect": {
+    "effect1": "Емоційне відновлення",
+    "effect2": "Зняття втоми",
+    "effect3": "Покращення самопочуття",
+    "effect4": "Розслаблення мʼязів",
+    "effect5": "Покращення кровообігу"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "легка",
+    "regularity": "1 раз в 7 днів",
+    "result": "1 сеанс",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": [
+      "шийно-комірцева зона",
+      "спина",
+      "задня поверхня ніг",
+      "стопи",
+      "руки повністю",
+      "долоні"
+    ]
+  },
+  "service_price": {
+    "title": "Масаж в чотири руки",
+    "price": "1300 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Масаж в чотири руки + Масаж стоп (додаток)",
+      "price": "1440 грн.",
+      "price_old": "1600 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Масаж в чотири руки + Збільшення часу сеансу + Ефірна олія: лимон",
+      "price": "1740 грн.",
+      "price_old": "1930 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [29, 1, 4],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 10, 12, 5]
+}

@@ -1,0 +1,58 @@
+{
+  "hero_title": "Профілактичний масаж",
+  "hero_video": "../video/preventive.mp4",
+  "hero_baner": "",
+  "service_description": "Ця послуга спрямована на підтримку та покращення результату після проходження курсу «Корекція фігури основна» та «Корекція фігури експрес». Кожний сеанс профілактичного масажу є унікальним. Спеціаліст відстежує зміни тіла та підбирає найбільш дієвий вид масажу та техніку виконання в день візиту клієнта. Як наслідок результат від проходження кожного сеансу покращується і відбувається комплексна робота з тілом.",
+  "service_effect": {
+    "effect1": "Підтримання результату",
+    "effect2": "Зменшення обʼємів ",
+    "effect3": "Тонізування мʼязів",
+    "effect4": "Тонізування шкіри",
+    "effect5": "Моделювання фігури"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "висока",
+    "regularity": "1 раз в 14 днів",
+    "result": "1 сеанс",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["живіт", "бока", "сідниці", "передня поверхня стегна", "задня поверхня ніг"]
+  },
+  "service_price": {
+    "title": "Профілактичний масаж",
+    "price": "1050 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Профілактичний масаж + Збільшення часу сеансу",
+      "price": "1440 грн.",
+      "price_old": "1600 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" }
+      ]
+    },
+    {
+      "title": "Профілактичний масаж + Оздоровчий масаж спини + Масажний крем для зволоження шкіри",
+      "price": "1780 грн.",
+      "price_old": "1980 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" }
+      ]
+    }
+  ],
+  "additives": [1, 6, 14],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

@@ -1,0 +1,58 @@
+{
+  "hero_title": "Оздоровчий комплекс",
+  "hero_video": "../video/health-complex.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга гармонійно балансує між користю та відчуттями. Завдяки поєднанню стоп, спини та голови, зʼявляється відчуття комплексної роботи з кровоносною, лімфатичною та мʼязовою системами. Спеціаліст ретельно працює з мʼязами, розминаючи та розтягуючи їх і як наслідок відновлює їх працездатність та тонус. Робота спеціаліста з головою та шийно-комірцевою зоною в комплексі дозволяє розвантажити кровоносну систему та покращити самопочуття.",
+  "service_effect": {
+    "effect1": "Зняття втоми",
+    "effect2": "Зняття стресу",
+    "effect3": "Відновлення самопочуття",
+    "effect4": "Розслаблення мʼязів",
+    "effect5": "Покращення кровообігу"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "середня",
+    "regularity": "1 раз в 10 днів",
+    "result": "3-5 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["голова", "шийно-комірцева зона", "спина", "стопи"]
+  },
+  "service_price": {
+    "title": "Оздоровчий комплекс",
+    "price": "1050 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Оздоровчий комплекс + Масаж долонь (додаток)",
+      "price": "1215 грн.",
+      "price_old": "1350 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-hands" }
+      ]
+    },
+    {
+      "title": "Оздоровчий комплекс + Масаж для втомлених ніг + Ефірна олія: грейпфрут",
+      "price": "1790 грн.",
+      "price_old": "1990 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [4, 6, 17],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 2, 5, 10, 12]
+}

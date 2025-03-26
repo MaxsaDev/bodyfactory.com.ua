@@ -1,0 +1,58 @@
+{
+  "hero_title": "Блейд масаж всього тіла",
+  "hero_video": "../video/blade-body.mp4",
+  "hero_baner": ""
+,
+  "service_description": "Це послуга, яка виконується комбінованими рухами та масажними блейдами. Це металеві скребки з округлими формами різних видів та форм, що дозволяє працювати з мʼязами більш глибше та ретельніше. Спеціаліст працює по мʼязових волокнах з фасціями та місцями кріплення мʼязів. Під час масажу спеціаліст додатково працює з проблемними ділянками ретельно пропрцьовуюючи їх.",
+  "service_effect": {
+    "effect1": "Розслаблення мʼязів",
+    "effect2": "Зняття тригерів",
+    "effect3": "Зняття втоми",
+    "effect4": "Покращення працездатності",
+    "effect5": "Покращення лімфотоку"
+  },
+  "service_details": {
+    "time": "90 хв.",
+    "intensity": "середня",
+    "regularity": "3 рази в місяць",
+    "result": "3-5 сенсів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "service_price": {
+    "title": "Блейд масаж всього тіла",
+    "price": "1350 грн.",
+    "price_old": "",
+    "icons": [
+      {"icon": "../images/symbol-massage.svg#icon-massage"}
+      ]  
+  },
+  "service_price_additional": [
+      {
+          "title": "Блейд масаж всього тіла + Масаж стоп (додаток)",
+          "price": "1440 грн.",
+          "price_old": "1600 грн.",
+          "icons": [
+              {"icon": "../images/symbol-massage.svg#icon-massage"},
+              {"icon": "../images/symbol-massage.svg#icon-foot"}
+          ]
+      },
+      {
+          "title": "Блейд масаж всього тіла + Збільшення часу сеансу + Масаж долонь (додаток)",
+          "price": "1827 грн.",
+          "price_old": "2030 грн.",
+          "icons": [
+              {"icon": "../images/symbol-massage.svg#icon-massage"},
+              {"icon": "../images/symbol-massage.svg#icon-time"},
+              {"icon": "../images/symbol-massage.svg#icon-hands"}
+          ]
+      }
+  ],
+  "additives": [1, 6, 2],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17]
+,
+  "contraindication": [1, 2, 5, 10, 12]
+}

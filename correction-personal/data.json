@@ -1,0 +1,58 @@
+{
+  "hero_title": "Корекція фігури Індивідуальна",
+  "hero_video": "../video/correction-personal.mp4",
+  "hero_baner": "",
+  "service_description": "Програма індивідуальної корекції фігури складається під потреби кожного клієнта. Спеціалісти зʼясовують необхідну інформацію щодо стану тіла, звичок, харчування та способу життя. Завдяки цьому розробляється унікальна програма корекції фігури, яка адаптується під кожного клієнта. Клієнт отримує унікальний графік відвідувань, послідовність масажів та індивідуальну інтенсивність виконання, завдяки чому досягається максимальний результат.",
+  "service_effect": {
+    "effect1": "Тонізування мʼязів",
+    "effect2": "Тонізування шкіри",
+    "effect3": "Зменшення обʼємів",
+    "effect4": "Зменшення набряків",
+    "effect5": "Моделювання фігури"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "індивідуальна",
+    "regularity": "індивідуальна",
+    "result": "індивідуальна",
+    "tools": "базове масло, мед"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "СПИНА"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["живіт", "бока", "сідниці", "передня поверхня стегна", "задня поверхня ніг"]
+  },
+  "service_price": {
+    "title": "Корекція фігури Індивідуальна",
+    "price": "1150 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Корекція фігури Індивідуальна + Збільшення часу сеансу",
+      "price": "1530 грн.",
+      "price_old": "1700 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" }
+      ]
+    },
+    {
+      "title": "Корекція фігури Індивідуальна + Збільшення часу сеансу + Масажний крем для зволоження шкіри",
+      "price": "1600 грн.",
+      "price_old": "1780 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" }
+      ]
+    }
+  ],
+  "additives": [1, 6, 10],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

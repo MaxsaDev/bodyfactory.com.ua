@@ -1,0 +1,57 @@
+.notes_wrapper{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    /* background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/leave_shadow.png); */
+    background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/atention_check.png);
+    background-size: cover;
+    background-position: 100% 50%;
+}
+
+@media screen and (min-width:765px){
+    .notes_wrapper{
+        width: 700px;
+    }
+}
+
+.notes_list{
+    margin-bottom: 30px;
+}
+
+.notes_title{
+    margin: 0;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: var(--dark-third);
+    font-size: 22px;
+}
+
+.notes_item{
+    list-style-type: disclosure-closed;
+    list-style-position: inside;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.safely_block{
+
+}
+
+.safely_block_title{
+    font-size: 20px;
+    padding-left: 15px;
+    color: var(--dark-first);
+}
+
+.safely_block_text{
+    line-height: 22px;
+}
+
+.safely_block_span{
+  color: var(--dark-first);
+}

@@ -1,0 +1,84 @@
+{
+    "advantages": [
+      {
+        "id": 1,
+        "icon": "../images/symbol-advantages.svg#icon-slippers",
+        "text": "Одноразові тапочки"
+      },
+      {
+        "id": 2,
+        "icon": "../images/symbol-advantages.svg#icon-hair-elastic",
+        "text": "Одноразова резинка для волосся"
+      },
+      {
+        "id": 3,
+        "icon": "../images/symbol-advantages.svg#icon-underwear",
+        "text": "Одноразова білизна"
+      },
+      {
+        "id": 4,
+        "icon": "../images/symbol-advantages.svg#icon-cap-head",
+        "text": "Шапочка для голови"
+      },
+      {
+        "id": 5,
+        "icon": "../images/symbol-advantages.svg#icon-music",
+        "text": "Можливість включити свою музику"
+      },
+      {
+        "id": 6,
+        "icon": "../images/symbol-advantages.svg#icon-couch-heating",
+        "text": "Підігрів кушетки з різними режимами"
+      },
+      {
+        "id": 7,
+        "icon": "../images/symbol-advantages.svg#icon-fireplace",
+        "text": "Камін"
+      },
+      {
+        "id": 8,
+        "icon": "../images/symbol-advantages.svg#icon-plaid",
+        "text": "Плед"
+      },
+      {
+        "id": 9,
+        "icon": "../images/symbol-advantages.svg#icon-drinks",
+        "text": "Карта напоїв тут або з собою"
+      },
+      {
+        "id": 10,
+        "icon": "../images/symbol-advantages.svg#icon-shower",
+        "text": "Душ"
+      },
+      {
+        "id": 11,
+        "icon": "../images/symbol-advantages.svg#icon-shower-set",
+        "text": "Душовий набір (Тапочки, халат, шапочка для волосся)"
+      },
+      {
+        "id": 12,
+        "icon": "../images/symbol-advantages.svg#icon-means",
+        "text": "Усі миючі засоби для тіла"
+      },
+      {
+        "id": 13,
+        "icon": "../images/symbol-advantages.svg#icon-hair-dryer",
+        "text": "Фен та плойка"
+      },
+      {
+        "id": 15,
+        "icon": "../images/symbol-advantages.svg#icon-female-treasurer",
+        "text": "Жіноча скарбничка"
+      },
+      {
+        "id": 16,
+        "icon": "../images/symbol-advantages.svg#icon-dryers-shoes",
+        "text": "Сушки для взуття"
+      }, 
+      {
+        "id": 17,
+        "icon": "../images/symbol-advantages.svg#icon-oil",
+        "text": "Карта ефірних олій"
+      }
+    ]
+}

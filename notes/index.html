@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пам'ятка клієнту. Body Factory</title>
+    <meta name="description" content="Студія професійного масажу BODY FACTORY. Всі види масажу. Корекція фігури. Естетика тіла та обличчя. Лікування та оздоровлення. Релакс.">
+    <meta name="keywords"
+          content="студія bodyfactory, body factory львів, bodyfactory львів, масаж, професійний масаж, масаж корекція фігури, лікувальний масаж, естетичний масаж, масаж тіла, масаж обличчя, оздоровчий масаж">
+    <meta name="facebook-domain-verification" content="6z8r8zqlor6rfkdtnlx4blh2l9t2ul"/>
+    <link rel="icon" type="image/png" sizes="45x45" href="../images/icon/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+          integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/hero.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/vacancy.css">
+    <link rel="stylesheet" href="../css/notes.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-70KLJ4H4Z6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+
+      gtag('config', 'G-70KLJ4H4Z6');
+      gtag('config', 'AW-10994207434');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <!-- Event snippet for Перегляд сторінки conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof (url) != 'undefined') {
+            // window.location = url;
+            window.open(url, '_blank');
+          }
+        };
+        gtag('event', 'conversion', {
+          'send_to': 'AW-10994207434/pVSlCIWpoeEDEMqVufoo',
+          'event_callback': callback
+        });
+        return false;
+      }
+    </script>
+    <!-- Event snippet for Перегляд сторінки conversion page
+   In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '5772610192751172');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img
+                height="1"
+                width="1"
+                style="display:none"
+                src="https://www.facebook.com/tr?id=5772610192751172&ev=PageView&noscript=1"
+        />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Hide name .html -->
+    <script>
+      window.history.replaceState({}, null, '/notes');
+    </script>
+</head>
+
+<body>
+
+<!--HEADER-->
+
+<header class="head">
+    <div class="head_full">
+        <div class="logo">
+            <a href="./index.html"> <img class="logo_img" src="../images/BF_logo_120_120.png" alt="" width="60" height="60"></a>
+            <h2 class="footer_name">BODY FACTORY</h2>
+        </div>
+
+        <div class="header_menu_burger">
+            <div class="navbar">
+                <a href="./index.html">ГОЛОВНА</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn"> НАШІ ПОСЛУГИ
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="./corection">Корекція фігури</a>
+                        <a href="./face">Естетика тіла та обличчя</a>
+                        <a href="./health">Лікування та оздоровлення</a>
+                        <a href="./relax">Релакс</a>
+                    </div>
+                </div>
+
+                <a href="./contacts">КОНТАКТИ</a>
+                <a href="./price">ПРАЙС</a>
+                <a class="order_header"
+                   onclick="gtag_report_conversion('https://cbox.mobi/go/body-factory')"
+                   href="https://cbox.mobi/go/body-factory" target="_blank">
+                    ЗАПИСАТИСЯ
+                </a>
+
+            </div>
+            <ul class="socials_header">
+                <li class="socials__item"><a class="socials__link" href="https://www.instagram.com/bodyfactory.ua/" target="_blank">
+                    <svg class="socials__icon">
+                        <use href="../images/icons.svg#instagram"></use>
+                    </svg>
+                </a></li>
+
+                <li class="socials__item"><a class="socials__link " href="https://www.facebook.com/bodyfactory.ua/" target="_blank">
+                    <svg class="socials__icon">
+                        <use class="socials__icon" href="../images/icons.svg#facebook"></use>
+                    </svg>
+                </a></li>
+                <li class="socials__item social_additional"><a class="socials__link" href="https://youtube.com/channel/UCR7nMLFf0vegyA0z3Jz3FsQ" target="_blank">
+                    <svg class="socials__icon">
+                        <use href="../images/icons.svg#icon-youtube"></use>
+                    </svg>
+                </a></li>
+
+            </ul>
+            <div class="header_menu_lang">
+                <a class="header_menu_lang__link" href="../en/notes">EN</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- меню бургер -->
+    <div class="burger_menu">
+        <input id="toggle" type="checkbox">
+
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="/">Головна</a><br>
+                    <a href="../face">Естетика тіла та обличчя</a><br>
+                    <a href="../health">Лікування та оздоровлення</a><br>
+                    <a href="../relax">Релакс</a><br>
+                    <a href="../contacts">Контакти</a><br>
+                    <a href="../price/">Прайс</a><br>
+                    <a class="order-nav_header"
+                       onclick="gtag_report_conversion('https://cbox.mobi/go/body-factory')"
+                       href="https://cbox.mobi/go/body-factory" target="_blank">
+                        Записатися
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<!-- NOTES -->
+<section class="vacancy_hero margin_auto">
+    <h1 class="services_h1_title margin_auto">Пам'ятка клієнту до масажу</h1>
+
+</section>
+
+<!-- NOTES -->
+<section class="vacancies_section margin_auto">
+
+    <div class="notes_wrapper">
+        <div class="notes_recommended">
+            <h4 class="notes_title">РЕКОМЕНДОВАНО</h4>
+            <ul class="notes_list notes_recommended_list">
+                <li class="notes_item">не їсти за 1 годину до сеансу;</li>
+                <li class="notes_item">не вживати алкоголь 12 годин перед сеансом;</li>
+                <li class="notes_item">не вживати енергетичних напоїв перед сеансом;</li>
+                <li class="notes_item">не відвідувати солярій та лазерну епіляцію до та після інтенсивного масажу;</li>
+                <li class="notes_item">не голити ділянки тіла та не травмувати шкіру до та після масажу;</li>
+                <li class="notes_item">прийняти душ в день масажу, в ідеалі - перед сеансом та після сеансу;</li>
+                <li class="notes_item">за потреби, скористатись вбиральнею перед сеансом.</li>
+            </ul>
+        </div>
+
+        <div class="notes_necessarily">
+            <h4 class="notes_title">ОБОВ'ЯЗКОВО</h4>
+            <ul class="notes_list notes_necessarily_list">
+                <li class="notes_item">попередити спеціаліста про всі можливі алергічні реакції, хірургічні втручання та особливості вашого організму.</li>
+            </ul>
+        </div>
+
+        <div class="safely_block">
+            <h4 class="safely_block_title">У нас безпечно!</h4>
+            <p class="safely_block_text">Якщо ви у нас вперше - пропонуємо Вам провести <span class="safely_block_span">алергопробу</span> на базове масло, яке ми використовуємо
+                для масажів. Задля цього просимо прийти на 15 хвилин раніше та повідомити адміністратора.</p>
+        </div>
+
+        <div><br><br></div>
+
+
+        <div class="notes_recommended">
+            <h4 class="notes_title">ЗАГАЛЬНІ ПРОТИПОКАЗАННЯ ДО МАСАЖУ</h4>
+            <ul class="notes_list notes_recommended_list">
+                <li class="notes_item">підвищена температура тіла;</li>
+                <li class="notes_item">загострення запальних захворювань;</li>
+                <li class="notes_item">інфекційні захворювання;</li>
+                <li class="notes_item">підвищений тиск;</li>
+                <li class="notes_item">пошкодження шкірного покриву;</li>
+                <li class="notes_item">алергічні висипання;</li>
+                <li class="notes_item">стан після операції;</li>
+                <li class="notes_item">критичні дні (при інтенсивних масажах);</li>
+                <li class="notes_item">алкогольне та наркотичне сп’яніння;</li>
+                <li class="notes_item">тромбоз;</li>
+                <li class="notes_item">судоми;</li>
+                <li class="notes_item">захворювання серцево-судинної системи;</li>
+                <li class="notes_item">різні види онкології;</li>
+                <li class="notes_item">остеопороз;</li>
+                <li class="notes_item">наявність грижі (в зоні проведення масажу);</li>
+                <li class="notes_item">гіпертонічний криз;</li>
+                <li class="notes_item">виражене варикозне розширення вен;</li>
+                <li class="notes_item">захворювання органів черевної порожнини;</li>
+                <li class="notes_item">психічні захворювання з надмірним збудженням;</li>
+            </ul>
+        </div>
+
+        <div class="notes_recommended">
+            <h4 class="notes_title">ВІДМОВА ВІД ВІДПОВІДАЛЬНОСТІ</h4>
+            <ul class="notes_list notes_recommended_list">
+                <li class="notes_item">Перед візитом до студії масажу, рекомендується проконсультуватися зі своїм лікарем щодо протипоказань до масажу або конкретних видів масажу.</li>
+                <li class="notes_item">Клієнти повинні попередити свого масажиста про будь-які медичні проблеми, які вони мають або могли мати в минулому.</li>
+                <li class="notes_item">Клієнти повинні розуміти, що масажисти не є медичними фахівцями та не можуть замінити кваліфіковану консультацію лікаря.</li>
+                <li class="notes_item">Клієнти повинні звернути увагу на будь-які відчуття дискомфорту під час масажу та повідомити масажиста про це негайно.</li>
+            </ul>
+        </div>
+
+        <div class="notes_necessarily">
+            <h4 class="notes_title">ВАЖЛИВО</h4>
+            <ul class="notes_list notes_necessarily_list">
+                <li class="notes_item">
+                    <b>Студія масажу та її спеціалісти не несуть відповідальності за будь-які наслідки, що виникли внаслідок пропущеного медичного аспекту<sup><abbr title="медичний аспект">[1]</abbr></sup>, надання клієнтом неправильних даних або ненадання таких про своє здоров'я.</b>
+                </li>
+            </ul>
+        </div>
+
+        <div class="notes_necessarily">
+            <p style="font-size: 0.8rem">
+                <sup id="cite_ref"><a href="#cite_note">[1]</a></sup><b>Медичний аспект</b> в цьому випадку означає усі аспекти, пов'язані зі здоров'ям та медичними проблемами клієнта. Це може включати попередні медичні діагнози, алергії, прийом лікарських засобів та будь-які інші фактори, які можуть впливати на здоров'я клієнта під час масажу.<br>
+                <br>
+                Таким чином, якщо клієнт не повідомить про певні медичні аспекти свого здоров'я перед початком масажу, студія масажу не може нести відповідальність за будь-які наслідки, що можуть виникнути під час масажу.<br>
+                <br>
+                Отже, для безпеки свого здоров'я клієнти повинні завжди повідомляти про будь-які медичні аспекти свого здоров'я перед початком масажу та дотримуватися рекомендацій масажиста щодо певних видів масажу або частоти масажу.
+            </p>
+        </div>
+
+
+    </div>
+</section>
+
+<!--<section class="vacancies_section margin_auto">-->
+
+<!--    <div class="notes_wrapper">-->
+<!--        <div class="notes_recommended">-->
+<!--            <h4 class="notes_title">Disclaimer</h4>-->
+<!--            <ul class="notes_list notes_recommended_list">-->
+<!--                <li class="notes_item">Перед візитом до студії масажу, рекомендується проконсультуватися зі своїм лікарем щодо протипоказань до масажу або конкретних видів масажу.</li>-->
+<!--                <li class="notes_item">Клієнти повинні попередити свого масажиста про будь-які медичні проблеми, які вони мають або могли мати в минулому.</li>-->
+<!--                <li class="notes_item">Клієнти повинні розуміти, що масажисти не є медичними фахівцями та не можуть замінити кваліфіковану консультацію лікаря.</li>-->
+<!--                <li class="notes_item">Клієнти повинні звернути увагу на будь-які відчуття дискомфорту під час масажу та повідомити масажиста про це негайно.</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+
+<!--        <div class="notes_necessarily">-->
+<!--            <h4 class="notes_title">ВАЖЛИВО</h4>-->
+<!--            <ul class="notes_list notes_necessarily_list">-->
+<!--                <li class="notes_item">-->
+<!--                     <b>Студія масажу ті її спеціалісти не несуть відповідальності за будь-які наслідки, що виникли внаслідок пропущеного медичного аспекту або надання неправильних даних про своє здоров'я.</b>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
+
+<!--<section class="vacancies_section margin_auto">-->
+
+
+<!--    <div class="notes_wrapper">-->
+<!--        <div class="notes_recommended">-->
+<!--            <h4 class="notes_title">ПРОТИПОКАЗИ ДО МАСАЖУ</h4>-->
+<!--            <ul class="notes_list notes_recommended_list">-->
+<!--                <li class="notes_item">ГРВІ та ГРЗ;</li>-->
+<!--                <li class="notes_item">пошкодження шкірного покриву;</li>-->
+<!--                <li class="notes_item">алергічні висипання;</li>-->
+<!--                <li class="notes_item">кровотечі та схильність до них;</li>-->
+<!--                <li class="notes_item">онкологія;</li>-->
+<!--                <li class="notes_item">гіпертонічний криз;</li>-->
+<!--                <li class="notes_item">алкогольне та наркотичне сп’яніння;</li>-->
+<!--                <li class="notes_item">наявність імплантів в організмі (кардіостимуляторів і т.д.);</li>-->
+<!--                <li class="notes_item">виражене варикозне розширення вен;</li>-->
+<!--                <li class="notes_item">захворювання органів черевної порожнини;</li>-->
+<!--                <li class="notes_item">психічні захворювання з надмірним збудженням;</li>-->
+<!--                <li class="notes_item">критичні дні (при інтенсивних масажах);</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+
+<!--        <div class="safely_block">-->
+<!--            <h4 class="safely_block_title">Слід зауважити</h4>-->
+<!--            <p class="safely_block_text">-->
+<!--                Є різні види груп протипоказань до різних видів масажів. Наведений перелік не є і не може бути вичерпним.-->
+<!--            </p>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
+
+<!-- BUTTON ON TOP -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<footer>
+    <div class="footer margin_auto">
+        <div class="footer_item--bf margin_auto">
+            <div class="footer_logo_name">
+
+                <img class="footer_logo_png" src="../images/BF_logo_120_120.png" alt="">
+
+
+                <h2 class="footer_name_add">BODY FACTORY</h2>
+
+            </div>
+        </div>
+        <div class="footer_item footer_item--second margin_auto">
+            <h3 class="contacts_title font-title"> НAШІ ПОСЛУГИ</h3>
+        </div>
+        <div class="footer_item footer_item--third margin_auto">
+            <h3 class="contacts_title font-title"> НАША АДРЕСА</h3>
+        </div>
+        <div class="footer_item footer_item--four margin_auto">
+            <p class="footer_text">
+                Студія з персональним інноваційним підходом до клієнтів. Ми створюємо комфорт, позбавляємо проблем, надихаємо та відновлюємо вас на тижні вперед.
+            </p>
+        </div>
+        <div class="footer_item footer_item--five margin_auto">
+            <a class="contacts_references_link" href="./corection"> Корекція фігури</a> </br>
+
+            <a class="contacts_references_link" href="./face">Естетика тіла та обличчя</a> </br>
+
+            <a class="contacts_references_link" href="./health">Лікування та оздоровлення</a></br>
+            <a class="contacts_references_link" href="./relax">Релакс</a></br>
+            <a class="contacts_references_link" href="./notes">Пам'ятка клієнту</a></br>
+            <a class="contacts_references_link"href="./vacancy">Вакансії</a>
+
+        </div>
+        <div class="footer_item footer_item--six  margin_auto">
+            <a class="contacts_adress_item" href="https://goo.gl/maps/FwnA2U8h5pGoPJsg6" target="_blank"
+               rel="noreferrer noopener">м. Львів,
+                площа Князя Святослава, 5 </a> </br>
+            <a class="contacts_adress_item" href="tel:+380969189089">+38 096 918 90 89</a>
+            <div class="contacts_socials">
+                <h3 class="contacts_title_soc">МИ В СОЦМЕРЕЖАХ:</h3>
+                <ul class="socials">
+                    <li class="socials__item">
+                        <a class="socials__link"
+                           href="https://www.instagram.com/bodyfactory.ua/"
+                           target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link"
+                           href="https://www.facebook.com/bodyfactory.ua/"
+                           target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link"
+                           href="https://t.me/bodyfactory_ua"
+                           target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-telegram-app"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link" href="https://www.youtube.com/channel/UC3DssE3EBierDYbzTdhuE4w" target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link" href="https://www.tiktok.com/@bodyfactory.ua" target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-tiktok"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a class="socials__link" href="https://www.linkedin.com/company/bodyfactory-ua/" target="_blank">
+                            <svg class="socials__icon">
+                                <use href="../images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer_copyright">
+        <p>Developed & Supported by <a href="https://maxsa.com.ua/" target="_blank" style="text-decoration: none;">Maxsa, <span class="year"></span></a></p>
+        <p>Body Factory &#169 <span class="year"></span></p>
+    </div>
+
+</footer>
+
+<script src="../js/scroll_button.js"></script>
+<script src="../js/menu_price.js"></script>
+<script src="../js/date_year.js"></script>
+</body>
+
+</html>

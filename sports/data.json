@@ -1,0 +1,58 @@
+{
+  "hero_title": "Спортивний + ефект залу",
+  "hero_video": "../video/sports.mp4",
+  "hero_baner": "",
+  "service_description": "Інтенсивний масаж, який виконується ритмічними рухами. Ціль такого масажу задіяти кожний мʼяз в безліч активних скорочень, завдяки чому мʼяз буде набувати ефекту тренованості та тонусу. Внаслідок такому ритму послуги, шкіра також набуває тонусу, а жирова тканина зменшується в обʼємі. Перед інтенсивними рухами спеціаліст ретельно розігріває кожну ділянку, щоб не травмувати тканини.",
+  "service_effect": {
+    "effect1": "Тонізування мʼязів",
+    "effect2": "Тренованість мʼязів",
+    "effect3": "Моделювання тіла",
+    "effect4": "Пружність шкіри",
+    "effect5": "Зменшення обʼємів"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "висока",
+    "regularity": "1 раз в 7 днів",
+    "result": "6-10 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ВСЕ ТІЛО"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["спина", "живіт", "бока", "сідниці", "передня поверхня стегна", "задня поверхня ніг"]
+  },
+  "service_price": {
+    "title": "Спортивний + ефект залу",
+    "price": "1150 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Спортивний + ефект залу + Масаж стоп (додаток)",
+      "price": "1305 грн.",
+      "price_old": "1450 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Спортивний + ефект залу + Збільшення часу сеансу + Ефірна олія: мандарин",
+      "price": "1600 грн.",
+      "price_old": "1780 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-time" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [1, 6, 20],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

@@ -1,0 +1,58 @@
+{
+  "hero_title": "Корекція талії",
+  "hero_video": "../video/correction-waist.mov",
+  "hero_baner": "",
+  "service_description": "Масаж який націлений на зменшення обʼєму талії та виділення та моделювання її контурів. Спеціаліст проводить комплексну роботи з животом боками та лінією талії, комбінуючи техніки масажу,розминання, дренажні та інтенсивні масажні прийоми. Цей масаж є інтенсивним, проте проводиться по мʼязових волокнах, що запобігає травмуванню мʼяких тканин.",
+  "service_effect": {
+    "effect1": "Моделювання талії ",
+    "effect2": "Зменшення обʼємів",
+    "effect3": "Тонізування мʼязів",
+    "effect4": "Тонізування шкіри",
+    "effect5": "Пружність тканин"
+  },
+  "service_details": {
+    "time": "30 хв.",
+    "intensity": "висока",
+    "regularity": "3 рази на місяць",
+    "result": "5-9 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "ЖИВІТ, БОКА"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["живіт", "бока"]
+  },
+  "service_price": {
+    "title": "Корекція талії",
+    "price": "730 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Корекція талії + Корекція рук",
+      "price": "1290 грн.",
+      "price_old": "1430 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" }
+      ]
+    },
+    {
+      "title": "Корекція талії + Масаж для втомлених ніг + Масажний крем для зволоження шкіри",
+      "price": "1490 грн.",
+      "price_old": "1660 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" }
+      ]
+    }
+  ],
+  "additives": [6, 10],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

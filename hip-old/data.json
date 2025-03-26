@@ -1,0 +1,59 @@
+{
+    "hero_title": "Масаж відновлення стегна",
+    "hero_video": "../video/hip .mp4",
+    "hero_baner": ""
+,
+    "service_description": "Масаж спрямований на локальне вирішення проблем ділянки стегна. Спеціаліст оглядає мʼязи та визначає проблеми, використовуючи техніки масажу відновлення активно працює з проблемною ділянкою. Під час всієї послуги додатково залучаються сусідні мʼязи та тканини для профілактичного ефекту. Спеціаліст може працювати з однією або ж двома ногами, відштовхуючись від проблеми.",
+    "service_effect": {
+      "effect1": "Зняття тригерів",
+      "effect2": "Зняття спазмів",
+      "effect3": "Зняття болів",
+      "effect4": "Розслаблення мʼязів",
+      "effect5": "Покращення кровообігу"
+    },
+    "service_details": {
+      "time": "30 хв.",
+      "intensity": "середня",
+      "regularity": "по запиту",
+      "result": "4-7 сеансів",
+      "tools": "базове масло"
+    },
+    "zones": {
+      "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+      "description": "СТЕГНА"
+    },
+    "service_price": {
+      "title": "Масаж відновлення стегна",
+      "price": "600 грн.",
+      "price_old": "",
+      "icons": [
+      {"icon": "../images/symbol-massage.svg#icon-massage"}
+      ]
+  
+    },
+    "service_price_additional": [
+        {
+            "title": "Масаж відновлення стегна + Масаж стоп (додаток)",
+            "price": "765 грн.",
+            "price_old": "850 грн.",
+            "icons": [
+                {"icon": "../images/symbol-massage.svg#icon-massage"},
+                {"icon": "../images/symbol-massage.svg#icon-foot"}
+            ]
+        },
+        {
+            "title": "Масаж відновлення стегна + Масаж шийно-комірцевої зони + Масажний крем для зволоження шкіри",
+            "price": "1134 грн.",
+            "price_old": "1260 грн.",
+            "icons": [
+                {"icon": "../images/symbol-massage.svg#icon-massage"},
+                {"icon": "../images/symbol-massage.svg#icon-massage"},
+                {"icon": "../images/symbol-massage.svg#icon-cream"}
+            ]
+        }
+    ],
+    "additives": [2, 6, 14],
+    "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17]
+,
+    "contraindication": [1, 4, 10, 12, 14]
+  }

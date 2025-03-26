@@ -1,0 +1,58 @@
+{
+  "hero_title": "Талія + сідниці",
+  "hero_video": "../video/waist-buttocks.mov",
+  "hero_baner": "",
+  "service_description": "Це комплексний підхід для найбільш ретельної роботи з проблемними ділянками. Послуга буде актуальною, як для покращення та моделювання цих ділянок, так і для роботи з надлишковими обʼємами. Спеціаліст виконує комплекс інтенсивних технік для впливу на жирову тканину мʼязову та лімфатичну систему. Зміни відбуваються за рахунок корисних стресів, інтенсивної робити та правильно підібраних технік масажу.",
+  "service_effect": {
+    "effect1": "Тонізування мʼязів",
+    "effect2": "Тонізування шкіри",
+    "effect3": "Зменшення обʼємів",
+    "effect4": "Моделювання талії",
+    "effect5": "Моделювання сідниць"
+  },
+  "service_details": {
+    "time": "60 хв.",
+    "intensity": "висока",
+    "regularity": "3 рази на місяць",
+    "result": "5-10 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "Талія Cідниці"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["живіт", "бока", "сідниці"]
+  },
+  "service_price": {
+    "title": "Талія + сідниці",
+    "price": "1050 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Талія + сідниці + Корекція рук",
+      "price": "1575 грн.",
+      "price_old": "1750 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" }
+      ]
+    },
+    {
+      "title": "Талія + сідниці + Масаж шийно-комірцевої зони + Масажний крем для зволоження шкіри",
+      "price": "1650 грн.",
+      "price_old": "1830 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" }
+      ]
+    }
+  ],
+  "additives": [6, 14],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [17, 16, 12, 10, 13]
+}

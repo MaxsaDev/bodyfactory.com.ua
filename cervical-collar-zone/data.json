@@ -1,0 +1,58 @@
+{
+  "hero_title": "Масаж шийно-комірцевої зони",
+  "hero_video": "../video/cervical-collar-zone.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга, акцент якої повністю спрямований на шийно-комірцеву зону задля досягнення найкращого результату. Спеціаліст активно працює з усіма мʼязами розминаючи та розтягуючи їх. Під час сеансу спеціаліст виділяє проблемні ділянки даної зони та додатково працює з нею. Цей тип масажу буде найбільш актуальним, для людей, стиль життя яких повʼязаний з сидячою роботою.",
+  "service_effect": {
+    "effect1": "Відновлення працездатності ",
+    "effect2": "Розслаблення мʼязів",
+    "effect3": "Зняття тригерів",
+    "effect4": "Зняття болів",
+    "effect5": "Покращення кровообігу"
+  },
+  "service_details": {
+    "time": "30 хв.",
+    "intensity": "середня",
+    "regularity": "1 раз в 7 днів",
+    "result": "4-7 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "Шийно-комірцева зона"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["шийно-комірцева зона", "спина"]
+  },
+  "service_price": {
+    "title": "Масаж шийно-комірцевої зони",
+    "price": "700 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Масаж шийно-комірцевої зони + Масаж стоп (додаток)",
+      "price": "900 грн.",
+      "price_old": "1000 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-foot" }
+      ]
+    },
+    {
+      "title": "Масаж шийно-комірцевої зони + Масаж для втомлених ніг + Ефірна олія: чайне дерево",
+      "price": "1485 грн.",
+      "price_old": "1650 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [2, 3, 6],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 4, 10, 12, 14]
+}

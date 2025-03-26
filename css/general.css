@@ -1,0 +1,145 @@
+:root {
+/*
+first - grey
+second -grey
+third - yellow
+*/
+--dark-first: #4c4c4d;
+--most-light-second:rgb(215, 215, 217);
+--dark-second: #737372;
+--light-second: #BDBAB8;
+--dark-third:#d88d02;
+--middle-third:#f8bf00;
+--light-first: rgb(231, 231, 231);
+--middle-first:RGBA(107, 135, 8, 0.41);
+--time: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+--shadow:0px 0px 70px -50px rgba(0, 0, 0, 0.4);
+--line-height-text: 1.8;
+--width-basic:1200px;
+--text-basic:14px;
+--gradient-color:rgba(231, 231, 231, 0.8);
+}
+body {
+    font-family: 'Evolventa', sans-serif;
+    color: var(--dark-second);
+    background-color: var(--light-first);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2{margin: 0;}
+
+.line_bold {
+margin-left: 50px;
+    width: 1250px;
+    height: 3px;
+    border-bottom: 2px solid var(--dark-first);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+li, ul {
+    padding-inline-start: 0;
+}
+
+section {
+    /* max-width: 1200px; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ul{
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.font-title {
+    font-family: 'Evolventa', sans-serif;
+    /* font-weight: bolder; */
+}
+.margin_auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 764px) {
+
+    .services_h1_title {
+        width: 96%;
+        margin-top: 80px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.4;
+        color: var(--dark-first);
+
+        margin: 0;
+        font-size: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:765px) and (max-width:1199px) {
+    .services_h1_title {
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 765px) {
+
+    .services_h1_title {
+
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+        color: var(--dark-first);
+        line-height: var(--line-height-text);
+
+    }
+}
+
+.padding_50{
+    padding-left: 50px;
+}
+ /* FONTS */
+
+/*  директиви для шрифтів BF*/
+@font-face {
+    font-family: 'Evolventa';
+    src: local('Evolventa-Bold'), local('Evolventa-Bold'),
+        url('../fonts/Evolventa-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Evolventa';
+    src: local('Evolventa-BoldObligue'), local('Evolventa-BoldObligue'),
+        url('../fonts/Evolventa-BoldOblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Evolventa';
+    src: local('Evolventa-Oblique'), local('Evolventa-Oblique'),
+        url('../fonts/Evolventa-Oblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Evolventa';
+    src: local('Evolventa-Regular'), local('Evolventa-Regular'),
+        url('../fonts/Evolventa-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+

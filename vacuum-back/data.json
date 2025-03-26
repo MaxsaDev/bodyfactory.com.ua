@@ -1,0 +1,58 @@
+{
+  "hero_title": "Вакуумний масаж відновлення спини",
+  "hero_video": "../video/vacuum-back.mp4",
+  "hero_baner": "",
+  "service_description": "Це комбінований масаж руками та силіконовою вакуумною баночкою. Спеціаліст визначає проблеми спини та локальною працює з ними, доповнюючи ручні техніки масажу вакуумною баночкою. Баночка не ставиться на проблемних ділянках статично, спеціаліст динамічно працює, переміщаючи її по проблемним ділянкам, підсилюючи базові рухи масажу відновлення спини. ",
+  "service_effect": {
+    "effect1": "Зняття тригерів",
+    "effect2": "Зняття спазмів",
+    "effect3": "Зменшення застоїв",
+    "effect4": "Покращення лімфотоку",
+    "effect5": "Покращення кровообігу"
+  },
+  "service_details": {
+    "time": "45 хв.",
+    "intensity": "середня",
+    "regularity": "1 раз в 14 днів",
+    "result": "5-9 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "СПИНА"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["шийно-комірцева зона", "спина"]
+  },
+  "service_price": {
+    "title": "Вакуумний масаж відновлення спини",
+    "price": "900 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Вакуумний масаж відновлення спини + Масаж долонь (додаток)",
+      "price": "1080 грн.",
+      "price_old": "1200 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-hands" }
+      ]
+    },
+    {
+      "title": "Вакуумний масаж відновлення спини + Масаж для втомлених ніг + Масажний крем для зволоження шкіри",
+      "price": "1650 грн.",
+      "price_old": "1830 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-cream" }
+      ]
+    }
+  ],
+  "additives": [2, 6, 19],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 4, 10, 12, 14]
+}

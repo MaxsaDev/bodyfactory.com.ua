@@ -1,0 +1,58 @@
+{
+  "hero_title": "Масаж відновлення рук",
+  "hero_video": "../video/hand.mp4",
+  "hero_baner": "",
+  "service_description": "Послуга яка спрямована на вирішенні проблем мʼязової системи зони рук. Спеціаліст оглядає та визначає проблему, після техніками масажу відновлення активно працює з проблемною ділянкою. Під час послуги ретельно пропрацьовується кожен мʼяз проблемної зони розминанням та розтягуванням. Масаж може виконуватись як на одну руку так і на дві, відштовхуючись від проблеми та запиту. ",
+  "service_effect": {
+    "effect1": "Зняття тригерів",
+    "effect2": "Зняття спазмів",
+    "effect3": "Зняття болів",
+    "effect4": "Розслаблення мʼязів",
+    "effect5": "Покращення кровообігу"
+  },
+  "service_details": {
+    "time": "30 хв.",
+    "intensity": "середня",
+    "regularity": "по запиту",
+    "result": "4-7 сеансів",
+    "tools": "базове масло"
+  },
+  "zones": {
+    "icon": "../images/symbol-massage.svg#icon-standing-human-body",
+    "description": "РУКИ"
+  },
+  "body_zones": {
+    "title": "Зони масажу",
+    "zones": ["руки повністю"]
+  },
+  "service_price": {
+    "title": "Масаж відновлення рук",
+    "price": "750 грн.",
+    "price_old": "",
+    "icons": [{ "icon": "../images/symbol-massage.svg#icon-massage" }]
+  },
+  "service_price_additional": [
+    {
+      "title": "Масаж відновлення рук + Масаж долонь (додаток)",
+      "price": "945 грн.",
+      "price_old": "1050 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-hands" }
+      ]
+    },
+    {
+      "title": "Масаж відновлення рук + Оздоровчий масаж спини + Ефірна олія: бергамот",
+      "price": "1510 грн.",
+      "price_old": "1680 грн.",
+      "icons": [
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-massage" },
+        { "icon": "../images/symbol-massage.svg#icon-oil" }
+      ]
+    }
+  ],
+  "additives": [3, 6, 14],
+  "advantages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17],
+  "contraindication": [1, 4, 10, 12, 14]
+}
